@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Разрешаем всё ботам
+Disallow: /cgi-bin
+
+# Sitemap
+Sitemap: https://1xbetreg.vercel.app/sitemap.xml
+
+# Яндекс и Google — welcome
+User-agent: Yandex
+Allow: /
+User-agent: Googlebot
+Allow: /
